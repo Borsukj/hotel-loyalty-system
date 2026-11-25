@@ -8,9 +8,9 @@ public class DbConnector {
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(
-                DbCredentials.URL,
-                DbCredentials.USER,
-                DbCredentials.PASSWORD
+                DbCredentials.getUrl(),
+                DbCredentials.getUser(),
+                DbCredentials.getPassword()
         );
     }
 }

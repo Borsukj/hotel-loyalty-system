@@ -14,7 +14,7 @@ target/
 *.ipr
 
 # Local database credentials
-db.properties
+src/main/resources/db.properties
 
 ### Eclipse ###
 .apt_generated
