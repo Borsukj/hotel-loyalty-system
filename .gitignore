@@ -13,6 +13,9 @@ target/
 *.iml
 *.ipr
 
+# Local database credentials
+db.properties
+
 ### Eclipse ###
 .apt_generated
 .classpath
