@@ -1,4 +1,4 @@
-package customer_loyalty_program;
+package customer_loyalty_program.database;
 
 public class DbCredentials {
     protected static final String url = "jdbc:mysql://localhost:3306/mydatabase";

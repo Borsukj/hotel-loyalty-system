@@ -1,4 +1,4 @@
-package customer_loyalty_program;
+package customer_loyalty_program.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
