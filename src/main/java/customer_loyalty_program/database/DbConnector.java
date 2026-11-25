@@ -7,6 +7,10 @@ import java.sql.SQLException;
 public class DbConnector {
 
     public static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(DbCredentials.URL, DbCredentials.USER, DbCredentials.PASSWORD);
+        return DriverManager.getConnection(
+                DbCredentials.URL,
+                DbCredentials.USER,
+                DbCredentials.PASSWORD
+        );
     }
 }
